@@ -1,0 +1,16 @@
+
+.btn-primary {
+  color: #fff;
+  background-color: #0C1B4D;
+  border-color: #0C1B4D;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #040F33;
+  border-color: #040F33;
+}
+.carousel-item {
+  height: 32rem;
+  background-color: #0b8149;
+}
