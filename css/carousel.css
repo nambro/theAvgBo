@@ -7,7 +7,19 @@
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #0C1B4D;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0b8149;
+  border-color: #0b8149;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #006A37;
+  border-color: #006A37;
 }
 
 
@@ -17,17 +29,23 @@ body {
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
+  color: rgba(255, 255, 255);
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
+  color: rgba(255, 255, 255, 1);
+/*
+  background: rgba(90, 90, 90, 0.7);
+*/
+  padding: 1rem;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
-  background-color: #777;
+  background-color: #0C1B4D;
 }
 .carousel-item > img {
   position: absolute;
@@ -35,6 +53,7 @@ body {
   left: 0;
   min-width: 100%;
   height: 32rem;
+  opacity: 0.6;
 }
 
 
